@@ -48,21 +48,3 @@ int main()
 }
 
 
-
-void TEST(){
-  Solution s;
-
-  assert(s.convert("A", 1).compare("A") == 0);
-  assert(s.convert("AB", 1).compare("AB") == 0);
-
-  assert(s.convert("ABCD", 3).compare("ABDC") == 0);
-  assert(s.convert("PAYPALISHIRING", 3).compare("PAHNAPLSIIGYIR") == 0);
-  assert(s.convert("PAYPALISHIRING", 4).compare("PINALSIGYAHRPI") == 0);
-
-}
-
-int main()
-{
-  TEST();
-}
-
