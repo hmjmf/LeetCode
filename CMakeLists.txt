@@ -10,3 +10,4 @@ add_executable(Single_Element_in_a_Sorted_Array Single_Element_in_a_Sorted_Array
 add_executable(AddTwoNumbers  AddTwoNumbers.cpp)
 add_executable(LongestSubstringWithoutRepeatingCharacters  LongestSubstringWithoutRepeatingCharacters.cpp)
 add_executable(MedianofTwoSortedArrays  MedianofTwoSortedArrays.cpp)
+add_executable(LongestPalindromicSubstring LongestPalindromicSubstring.cpp)
