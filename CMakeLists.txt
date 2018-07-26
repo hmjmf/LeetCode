@@ -12,3 +12,4 @@ add_executable(LongestSubstringWithoutRepeatingCharacters  LongestSubstringWitho
 add_executable(MedianofTwoSortedArrays  MedianofTwoSortedArrays.cpp)
 add_executable(LongestPalindromicSubstring LongestPalindromicSubstring.cpp)
 add_executable(ZigZagConversion ZigZagConversion.cpp)
+add_executable(ReverseInteger ReverseInteger.cpp)

@@ -14,7 +14,7 @@
 using namespace std;
 
 
-//1
+//6
 class Solution {
 public:
   string convert(string s, int numRows) {
