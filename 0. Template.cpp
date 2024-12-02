@@ -6,7 +6,7 @@ using namespace std;
 
 class Solution {
 public:
-  vector<int> ProblemName() {
+  std::string ProblemName() {
     
   }
 
@@ -15,7 +15,6 @@ public:
 int main()
 {
     Solution s;
-    s.ProblemName();
-
-    remove(replace(__FILE__, ".cpp", "").c_str());
+    std::cout << s.ProblemName() << std::endl;
+    
 }
