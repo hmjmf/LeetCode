@@ -1,8 +1,11 @@
 
+#include <cstdlib>
 #include <vector>
 #include <string>
 #include <algorithm>
 #include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 
 std::vector<std::string> split(const std::string &s, char delimiter) {
     std::vector<std::string> result;
@@ -79,3 +82,9 @@ struct ListNode {
         std::cout << std::endl;
     }
 };
+
+void Clear(const std::string &file_name) {
+  if (file_name.size() > std::string(".cpp").size() && file_name.find(".cpp") == file_name.size() - 4) {
+    system(("rm -f " + std::string(file_name.begin(), file_name.end() - 4)).c_str());
+  }
+}
